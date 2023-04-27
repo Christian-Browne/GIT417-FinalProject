@@ -298,8 +298,8 @@ input[type='email']:focus {
 
 input[type='submit'] {
   width: 100%;
-  color: white;
-  background-color: #552583;
+  color: black;
+  background-color: #fdb927;
   padding: 15px;
   margin-top: 10px;
   border: none;
@@ -308,7 +308,7 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-  background-color: #351752;
+  background-color: #ac7600;
 }
 
 input.error {
@@ -342,10 +342,6 @@ footer {
   margin-top: 50px;
   background-color: #fdb927;
   padding: 40px 50px;
-  position: absolute;
-  width: 100%;
-  bottom: 1;
-  width: 100%;
   text-align: center;
 }
 
