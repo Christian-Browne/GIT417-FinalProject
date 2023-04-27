@@ -1,0 +1,375 @@
+/* Clear Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #1c1c1c;
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0px;
+  padding: 30px 60px;
+  background-color: #552583;
+  width: 100vw;
+}
+
+nav img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fdb927;
+  text-decoration: underline;
+}
+
+/* Theme Styles */
+.mode {
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+/* Header Styles */
+header article {
+  padding-top: 185px;
+}
+
+main {
+  color: white;
+}
+
+article {
+  background-color: #fdb927;
+  padding: 4em 2em;
+}
+
+article h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #552583;
+}
+
+/* History Section Styles */
+#history {
+  line-height: 25px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://cdn.vox-cdn.com/thumbor/CObYzAYJPlP2W9-YY3hHTdto6ps=/0x0:3000x2001/1200x800/filters:focal(1144x525:1624x1005)/cdn.vox-cdn.com/uploads/chorus_image/image/66604036/102186206.jpg.0.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 8em 6em;
+  color: white;
+}
+
+#history h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fdb927;
+}
+
+/* Moments Section Styles */
+#moments {
+  margin-bottom: 30px;
+}
+
+#moments h2 {
+  margin-top: 80px;
+  font-size: 40px;
+  color: #fdb927;
+}
+
+#moments h3 {
+  font-size: 30px;
+  color: #fdb927;
+  margin-bottom: 15px;
+}
+#moments p {
+  line-height: 25px;
+}
+
+#moments img {
+  width: 400px;
+}
+
+#moments ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#moments li {
+  display: flex;
+  gap: 4em;
+  margin-top: 60px;
+  border: 5px solid #552583;
+  padding: 40px 20px;
+}
+/* Product Section Styles */
+#products {
+  margin: 0 auto;
+}
+
+#products h2 {
+  font-size: 40px;
+  color: #fdb927;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.product-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.product-name {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.img-container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-description {
+  margin-bottom: 50px;
+}
+
+.buy-button {
+  color: black;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 100px;
+  background-color: #fdb927;
+}
+
+/* Arrow Styles */
+.arrow {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 135px;
+  left: 400px;
+}
+
+.front-arrow {
+  cursor: pointer;
+
+  position: absolute;
+  top: 135px;
+  right: 400px;
+}
+
+#contact {
+  margin-top: 80px;
+}
+
+/* Form Styles */
+form {
+  font: 14px Arial;
+  background-color: #552583;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+form h2 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+#formErrors {
+  color: red;
+  margin-left: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+  width: 400px;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  margin: 15px 0px;
+  padding-bottom: 20px;
+  width: 400px;
+  border: 01px solid #393939;
+  border-radius: 0.2em;
+  display: flex;
+}
+
+fieldset label {
+  /* display: inline; */
+  margin-top: 10px;
+  margin-right: 50px;
+  /* width: 60%; */
+}
+
+fieldset input {
+  display: inline;
+  width: 20px;
+  margin-top: 10px;
+
+  margin-right: 10px;
+}
+
+textarea {
+  width: 400px;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='email']:focus {
+  background-color: lightblue;
+}
+
+input[type='submit'] {
+  width: 100%;
+  color: white;
+  background-color: #552583;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #351752;
+}
+
+input.error {
+  border: 2px solid red;
+}
+
+/* Submitted Data Styles */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fdb927;
+  margin: 15% auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Game Section Styles*/
+#game {
+  text-align: center;
+  margin-top: 80px;
+  background-color: #552583;
+  padding: 50px 10px;
+}
+
+#game button {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#game h2 {
+  font-size: 40px;
+  color: #fdb927;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#game p {
+  font-size: 25px;
+}
+
+#result {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#game button {
+  display: block;
+  padding: 20px 80px;
+  border: none;
+  background-color: #fdb927;
+  border-radius: 100px;
+}
